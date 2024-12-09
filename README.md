@@ -7,13 +7,14 @@
 ---
 
 ## Project Overview
-SubTrack is a cloud-based subscription management platform designed to simplify and automate the tracking of recurring payments. With integrations to financial APIs and cloud services, it provides users with actionable insights into their subscription spending while ensuring timely notifications to avoid missed payments.
+SubTrack is a cloud-based subscription management platform designed to simplify and automate tracking of recurring payments. With integrations to financial APIs and cloud services, it provides users with actionable insights into their subscription spending while ensuring timely notifications to avoid missed payments.
+
 
 ### Key Features:
-- Automatic detection of recurring payments (e.g., Netflix, Spotify).
-- Prediction of upcoming bills using past payment patterns.
+- Automatic retrieval of transaction data using the Plaid API for subscription management.
 - Real-time email notifications for upcoming subscription renewals.
-- Comprehensive dashboard to manage and track all subscriptions.
+- Comprehensive dashboard for managing and tracking all subscriptions.
+- Hosted and deployed on Google Cloud Platform (GCP) for scalability and reliability.
 
 ---
 
